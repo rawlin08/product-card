@@ -17,14 +17,14 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .card {
     background-color: #FFFFFF;
     border-radius: 8px;
     width: 90%;
-    max-width: 327px;
+    max-width: 343px;
     margin: 0 auto;
     box-shadow: 0 20px 20px -10px rgba(23,25,41,0.2);
     overflow: hidden;
@@ -40,14 +40,76 @@ img {
 
 /* Content */
 
+.container {
+    padding: 24px;
+}
+
+.sub {
+    color: #6C7289;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 15px;
+    margin: 0;
+}
+
+h1 {
+    color: #1C232B;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 12px 0 15px 0;
+}
+
+.sub2 {
+    color: #6C7289;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 0 0 25px 0;
+}
+
 .price {
     display: flex;
+    margin: 0 0 20px 0;
+}
+
+.discprice {
+    color: #3D8168;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0;
+}
+
+.standprice {
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin: 0 0 0 19px;
+    text-decoration: line-through;
+}
+
+.add {
+    display: flex;
+    height: 48px;
+    width: 295px;
 }
 
 .cart {
     background-color: #3D8168;
     border: none;
-    padding: 8px 30px;
     border-radius: 5px;
-    color: #eee;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 295px;
 }
