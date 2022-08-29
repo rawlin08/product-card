@@ -1,0 +1,53 @@
+/* Boiler */
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+/* Main Content */
+
+body {
+    background-color: #F2EAE2;
+    font-family: 'Inter', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 327px;
+    margin: 0 auto;
+    box-shadow: 0 20px 20px -10px rgba(23,25,41,0.2);
+    overflow: hidden;
+}
+
+/* Image */
+
+img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+/* Content */
+
+.price {
+    display: flex;
+}
+
+.cart {
+    background-color: #3D8168;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: #eee;
+}
